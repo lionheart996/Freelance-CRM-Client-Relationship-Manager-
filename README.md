@@ -1,34 +1,31 @@
-Freelance CRM
-A simple, open-source CRM built for freelancers and solo professionals. Track clients, manage projects, send invoices, and log communication—all in one place.
+# 🧾 Freelance CRM – Client Relationship Manager
 
-Features
-User authentication (sign up, login, logout)
+A lightweight, web-based CRM system built with Django for freelancers and solo professionals. It helps you manage clients, projects, invoices, and communication—all in one place.
 
-Client management: add, update, and delete client profiles
+---
 
-Project tracking with statuses and deadlines
+## 🌟 Features
 
-Invoice creation and status tracking
+- 🔐 **User Authentication** – Secure login and registration
+- 👥 **Client Management** – Add, edit, and remove client records
+- 📁 **Project Tracking** – Track project status, deadlines, and client assignments
+- 💰 **Invoices** – Generate and manage invoices with status tracking
+- 📝 **Notes & Communication Logs** – Log client interactions for better follow-up
 
-Notes & communication logs per client
+---
 
-Tech Stack
-Backend: Django, Django REST Framework
+## ⚙️ Tech Stack
 
-Database: PostgreSQL
+- **Backend**: Python, Django
+- **Database**: PostgreSQL (or SQLite for development)
+- **Frontend**: HTML, CSS (Bootstrap)
+- **Version Control**: Git & GitHub
 
-Frontend: HTML, CSS (Bootstrap or Tailwind)
+---
 
-Installation
-Clone the repo
+## 🚀 Getting Started
 
-Create a virtual environment
-
-Install dependencies: pip install -r requirements.txt
-
-Run migrations: python manage.py migrate
-
-Start the server: python manage.py runserver
-
-License
-MIT License
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/lionheart996/Freelance-CRM-Client-Relationship-Manager-.git
+   cd Freelance-CRM-Client-Relationship-Manager-
